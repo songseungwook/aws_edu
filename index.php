@@ -1,3 +1,16 @@
+<?php
+// 현재 시각을 'Y-m-d H:i:s' 형식으로 가져옴
+$timestamp = date('Y-m-d H:i:s');
+
+// 로그 파일 경로
+$logFile = '/var/www/html/logs/debug.log';
+
+// 로그 메시지
+$logMessage = "현재시간 : [$timestamp] " . PHP_EOL;
+
+// 로그 파일에 기록 (추가 모드)
+file_put_contents($logFile, $logMessage, FILE_APPEND);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +23,8 @@
     <header class="bg-primary text-white text-center py-3">
         <div class="container">
             <a href="/">
-                <img src="https://static.toastoven.net/toast/resources/img/logo_nhn_cloud_color.svg" class="img-fluid" alt="Logo" />
+<!--                <img src="https://static.toastoven.net/toast/resources/img/logo_nhn_cloud_color.svg" class="img-fluid" alt="Logo" />-->
+              saltlux
             </a>
         </div>
     </header>
