@@ -35,7 +35,7 @@ file_put_contents($logFile, $logMessage, FILE_APPEND);
         <div class="btn-group mt-4" role="group">
             <button class="btn btn-secondary" onclick="location.href='gallery.php'">Gallery Page</button>
             <button class="btn btn-primary" onclick="location.href='stress.php'">Stress Test</button>
-            <button class="btn btn-secondary" onclick="location.href='obj.php'">Object Upload</button>
+            <button class="btn btn-secondary" onclick="location.href='upload.php'">S3 Upload</button>
         </div>
     </div>
 
