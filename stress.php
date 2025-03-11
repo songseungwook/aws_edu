@@ -9,7 +9,7 @@
     <header class="bg-primary text-white text-center py-3">
         <div class="container">
             <a href="/">
-                <img src="https://static.toastoven.net/toast/resources/img/logo_nhn_cloud_color.svg" class="img-fluid" alt="Logo" />
+<!--                <img src="https://static.toastoven.net/toast/resources/img/logo_nhn_cloud_color.svg" class="img-fluid" alt="Logo" />-->
             </a>
         </div>
     </header>

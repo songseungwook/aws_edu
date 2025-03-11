@@ -33,7 +33,7 @@ file_put_contents($logFile, $logMessage, FILE_APPEND);
         <h1 class="display-4">현재 웹 서버의 IP 주소</h1>
         <p class="lead"><?php echo $_SERVER['SERVER_ADDR']; ?></p>
         <div class="btn-group mt-4" role="group">
-            <button class="btn btn-secondary" onclick="location.href='db_connect.php.php'">DB Connect</button>
+            <button class="btn btn-secondary" onclick="location.href='db_connect.php'">DB Connect</button>
             <button class="btn btn-primary" onclick="location.href='stress.php'">Stress Test</button>
             <button class="btn btn-secondary" onclick="location.href='upload.php'">S3 Upload</button>
         </div>
